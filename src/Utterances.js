@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+/** @jsx jsx */
 import { css, jsx } from "@emotion/core"
 
 export const Utterances = ({
@@ -33,11 +34,11 @@ export const Utterances = ({
     <div
       id="utterances_container"
       ref={rootElm}
-      css={css`
-        & .utterances {
-          maxwidth: 950px;
-        }
-      `}
+      css={{
+        "& .utterances": {
+          maxWidth: "950px",
+        },
+      }}
     />
   )
 }
