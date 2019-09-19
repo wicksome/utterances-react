@@ -1,6 +1,13 @@
 import React, { useEffect } from "react"
 
-export const Utterances = ({ repo }) => {
+export const Utterances = ({
+  repo,
+  issueTerm = "pathname",
+  label = "",
+  theme = "github-light",
+  crossOrigin: crossorigin = "anonymous",
+  async = true,
+}) => {
   const rootElm = React.createRef()
 
   useEffect(() => {
@@ -8,11 +15,11 @@ export const Utterances = ({ repo }) => {
     const config = {
       src: "https://utteranc.es/client.js",
       repo,
-      "issue-term": "pathname",
-      label: "🏷",
-      theme: "github-light",
-      crossorigin: "anonymous",
-      async: true,
+      "issue-term": issueTerm,
+      label,
+      theme,
+      crossorigin,
+      async,
     }
 
     Object.keys(config).forEach(key => {
