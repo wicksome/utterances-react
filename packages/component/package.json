@@ -1,9 +1,8 @@
 {
   "name": "utterances-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component for utterances",
   "main": "lib/index.js",
-  "module": "src/index.js",
   "engines": {
     "yarn": "^1.17.3"
   },

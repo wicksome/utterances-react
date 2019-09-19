@@ -14,7 +14,9 @@ export default ({
 
   useEffect(() => {
     const utterances = document.createElement("script")
-    const config = {
+
+    // set config to of script element
+    Object.entries({
       src: "https://utteranc.es/client.js",
       repo,
       "issue-term": issueTerm,
@@ -22,10 +24,10 @@ export default ({
       theme,
       crossorigin,
       async,
-    }
-    Object.keys(config).forEach(key => {
-      utterances.setAttribute(key, config[key])
+    }).forEach(([key, value]) => {
+      utterances.setAttribute(key, value)
     })
+    // attach script element
     rootElm.current.appendChild(utterances)
   }, [])
 
