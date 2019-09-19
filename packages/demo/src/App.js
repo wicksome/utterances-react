@@ -12,7 +12,7 @@ export default () => {
           demo page
         </h2>
       </center>
-      <Utterances repo="wicksome/utterances-react" theme="github-dark" />
+      <Utterances repo="wicksome/utterances-react" />
     </div>
   )
 }

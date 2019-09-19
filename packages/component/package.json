@@ -3,11 +3,9 @@
   "version": "0.0.9",
   "description": "React component for utterances",
   "main": "lib/index.js",
-  "workspaces": {
-    "packages": [
-      "packages/**"
-    ]
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "engines": {
     "yarn": "^1.17.3"
   },

@@ -5231,10 +5231,10 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-utterances-react@0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/utterances-react/-/utterances-react-0.0.8.tgz#2e6ea64afc757cace52dcf4aa5d07638f56f2d7f"
-  integrity sha512-88E3x3/V+I0DrYCh2vGqTh+qBLXu8EuDKiG7YsJcJaBMtpHtNCX0mPn+IGvLiy/MZMPHL7P4rYhxDfI0+IG8xw==
+utterances-react@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/utterances-react/-/utterances-react-0.0.9.tgz#bae4a449f72ab1ee57ca0581389c2018f71f05f5"
+  integrity sha512-hGp4EoFhJWq6VT3Zjun4J8qwsRz+e6OFePy6DgkP2TuBujh4DXAsbotfexOzuwwUlowxilnxRgWXkeKzoIXayQ==
   dependencies:
     "@emotion/core" "^10.0.17"
     react "^16.9.0"
