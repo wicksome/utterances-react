@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
-/** @jsx jsx */
-import { css, jsx } from "@emotion/core"
+import { css } from "@emotion/core"
 
 export const Utterances = ({
   repo,
@@ -34,7 +33,7 @@ export const Utterances = ({
     <div
       id="utterances_container"
       ref={rootElm}
-      css={css`
+      className={css`
         & .utterances {
           maxwidth: 950px;
         }
