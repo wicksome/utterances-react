@@ -14,6 +14,7 @@ export default ({
   useEffect(() => {
     const utterances = document.createElement("script")
     const config = {
+      src: "https://utteranc.es/client.js",
       repo,
       "issue-term": issueTerm,
       label,

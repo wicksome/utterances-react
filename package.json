@@ -1,7 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "author": "Yeongjun Kim <opid911@gmail.com>",
   "workspaces": [
     "packages/*"
   ],
@@ -10,7 +9,7 @@
     "clean": "lerna clean --yes",
     "start": "lerna bootstrap && lerna run --scope utterances-react-demo --parallel start"
   },
-  "dependencies": {
+  "devDependencies": {
     "lerna": "3.16.4"
   },
   "repository": "https://github.com/wicksome/utterances-react",

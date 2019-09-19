@@ -1,8 +1,9 @@
 {
   "name": "utterances-react",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "React component for utterances",
   "main": "lib/index.js",
+  "module": "src/index.js",
   "engines": {
     "yarn": "^1.17.3"
   },
@@ -10,7 +11,6 @@
     "lib": "lib"
   },
   "scripts": {
-    "demo": "babel demo/src/ --out-dir demo/lib/",
     "build": "babel src/ --out-dir lib/ --verbose"
   },
   "repository": {
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/wicksome/utterances-react/issues"
   },
-  "homepage": "https://github.com/wicksome/utterances-react",
+  "homepage": "https://github.com/wicksome/utterances-react/tree/master/packages/component#readme",
   "dependencies": {
     "@emotion/core": "^10.0.17",
     "react": "^16.9.0"
