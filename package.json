@@ -1,6 +1,6 @@
 {
   "name": "utterances-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React component for utterances",
   "main": "lib/index.js",
   "directories": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/wicksome/utterances-react#readme",
   "dependencies": {
+    "@emotion/core": "^10.0.17",
     "react": "^16.9.0"
   },
   "babel": {
