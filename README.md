@@ -1,6 +1,9 @@
 # utterances-react
 
-This is React component for [utterances](https://utteranc.es/)
+[![npm version](https://badge.fury.io/js/utterances-react.svg)](https://badge.fury.io/js/utterances-react)
+[![GitHub version](https://badge.fury.io/gh/wicksome%2Futterances-react.svg)](https://badge.fury.io/gh/wicksome%2Futterances-react)
+
+This is React component for [utterances][utterances]
 
 ## Install
 
@@ -26,3 +29,5 @@ export default ({ data }) => {
 ## License
 
 MIT
+
+[utterances]: https://utteranc.es/
