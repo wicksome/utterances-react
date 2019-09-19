@@ -34,11 +34,11 @@ export const Utterances = ({
     <div
       id="utterances_container"
       ref={rootElm}
-      css={{
-        "& .utterances": {
-          maxWidth: "950px",
-        },
-      }}
+      css={css`
+        & .utterances {
+          maxwidth: 950px;
+        }
+      `}
     />
   )
 }
