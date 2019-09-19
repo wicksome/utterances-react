@@ -1,0 +1,33 @@
+{
+  "name": "utterances-react",
+  "version": "0.0.1",
+  "description": "React component for utterances",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ --out-dir lib/ --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wicksome/utterances-react.git"
+  },
+  "keywords": [
+    "utterances",
+    "react",
+    "github"
+  ],
+  "author": "Yeongjun Kim <opid911@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wicksome/utterances-react/issues"
+  },
+  "homepage": "https://github.com/wicksome/utterances-react#readme",
+  "dependencies": {
+    "react": "^16.9.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
+}
