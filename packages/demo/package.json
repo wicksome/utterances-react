@@ -1,5 +1,5 @@
 {
-  "name": "@utterances-react/demo",
+  "name": "utterances-react-demo",
   "version": "0.0.1",
   "description": "utterances-react demo",
   "main": "src/index.js",
@@ -8,12 +8,10 @@
     "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yeongjun Kim <opid911@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "utterances-react": "0.0.9"
+    "utterances-react": "*"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",

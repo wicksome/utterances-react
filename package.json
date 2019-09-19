@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "author": "Yeongjun Kim <opid911@gmail.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "install": "lerna link",
+    "clean": "lerna clean --yes",
+    "start": "lerna bootstrap && lerna run --scope utterances-react-demo --parallel start"
+  },
+  "dependencies": {
+    "lerna": "3.16.4"
+  },
+  "repository": "https://github.com/wicksome/utterances-react",
+  "license": "MIT"
+}
