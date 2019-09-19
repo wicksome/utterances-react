@@ -12,7 +12,14 @@ export default () => {
           demo page
         </h2>
       </center>
-      <Utterances repo="wicksome/utterances-react" />
+      <Utterances
+        repo="wicksome/utterances-react"
+        style={`
+          & .utterances {
+            max-width: 950px; 
+          }
+        `}
+      />
     </div>
   )
 }

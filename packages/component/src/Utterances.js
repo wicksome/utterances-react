@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { css } from "@emotion/core"
+import { css } from "emotion"
 
 export default ({
   repo,
@@ -8,6 +8,7 @@ export default ({
   theme = "github-light",
   crossorigin = "anonymous",
   async = true,
+  style = "",
 }) => {
   const rootElm = React.createRef()
 
@@ -33,9 +34,7 @@ export default ({
       id="utterances_container"
       ref={rootElm}
       className={css`
-        & .utterances {
-          maxwidth: 950px;
-        }
+        ${style}
       `}
     />
   )
