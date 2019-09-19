@@ -1,13 +1,21 @@
 {
   "name": "utterances-react",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "React component for utterances",
   "main": "lib/index.js",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  "engines": {
+    "yarn": "^1.17.3"
+  },
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "",
+    "demo": "babel demo/src/ --out-dir demo/lib/",
     "build": "babel src/ --out-dir lib/ --verbose"
   },
   "repository": {
@@ -30,9 +38,6 @@
     "react": "^16.9.0"
   },
   "babel": {
-    "plugin": [
-      "emotion"
-    ],
     "presets": [
       "@babel/env",
       "@babel/react"

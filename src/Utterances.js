@@ -1,20 +1,27 @@
 import React, { useEffect } from "react"
 import { css } from "@emotion/core"
 
-export const Utterances = ({
+export default ({
   repo,
   issueTerm = "pathname",
   label = "",
   theme = "github-light",
-  crossOrigin: crossorigin = "anonymous",
+  crossorigin = "anonymous",
   async = true,
 }) => {
   const rootElm = React.createRef()
 
+  console.log("# utterances config")
+  console.log("repo", repo)
+  console.log("issueTerm", issueTerm)
+  console.log("label", label)
+  console.log("theme", theme)
+  console.log("crossorigin", crossorigin)
+  console.log("async", async)
+
   useEffect(() => {
     const utterances = document.createElement("script")
     const config = {
-      src: "https://utteranc.es/client.js",
       repo,
       "issue-term": issueTerm,
       label,
@@ -22,7 +29,6 @@ export const Utterances = ({
       crossorigin,
       async,
     }
-
     Object.keys(config).forEach(key => {
       utterances.setAttribute(key, config[key])
     })
@@ -41,5 +47,3 @@ export const Utterances = ({
     />
   )
 }
-
-export default Utterances
