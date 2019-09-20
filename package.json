@@ -7,7 +7,9 @@
   "scripts": {
     "install": "lerna link",
     "clean": "lerna clean --yes",
-    "start": "lerna bootstrap && lerna run --scope utterances-react-demo --parallel start"
+    "build": "lerna run --no-prefix --scope utterances-react --parallel build",
+    "start": "lerna bootstrap && lerna run --no-prefix --scope utterances-react--demo --parallel start",
+    "storybook": "lerna bootstrap && lerna run --no-prefix --scope utterances-react--storybook --parallel storybook"
   },
   "devDependencies": {
     "lerna": "3.16.4"

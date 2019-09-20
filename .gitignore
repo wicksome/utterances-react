@@ -1,7 +1,6 @@
 .DS_Store
 .git
 node_modules
-lib
 
 # demo
-demo/dist
+packages/demo/dist
