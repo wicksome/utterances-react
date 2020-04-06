@@ -12,7 +12,7 @@
     "storybook": "lerna bootstrap && lerna run --no-prefix --scope utterances-react--storybook --parallel storybook"
   },
   "devDependencies": {
-    "lerna": "3.16.4"
+    "lerna": "3.20.2"
   },
   "repository": "https://github.com/wicksome/utterances-react",
   "license": "MIT"

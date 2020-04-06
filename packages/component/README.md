@@ -29,9 +29,9 @@ export default ({ data }) => {
       crossorigin="anonymous"
       async={false}
       style={`
-      & .utterances {
-        max-width: 950px;
-      }
+        & .utterances {
+          max-width: 950px;
+        }
     `}
     />
   )
