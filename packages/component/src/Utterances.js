@@ -13,6 +13,11 @@ export default ({
   const rootElm = React.createRef()
 
   useEffect(() => {
+    // Ensure script is loaded with the correct params by removing cached element
+    while (rootElm.current.firstChild) {
+      rootElm.current.removeChild(rootElm.current.firstChild);
+    }
+
     const utterances = document.createElement("script")
 
     // set config to of script element
